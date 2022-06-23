@@ -1351,26 +1351,6 @@
     "title_replacement": {
       "'s": "s",
       "\"": ""
-    },
-  "legittorrents": {
-    "name": "Legit Torrents",
-    "enabled": true,
-    "languages": [
-      "en"
-    ],
-    "base_url": "http://www.legittorrents.info/index.php?page=torrents&active=1",
-    "response_type": "text",
-    "movie": {
-      "query": "&search={query}&category=1",
-      "keywords": "{title} "
-    },
-    "html_parser": {
-      "row": "doc.querySelectorAll('#bodyarea tr table:nth-child(3) table.lista tr')",
-      "title": "row.querySelector('td:nth-child(2) a').textContent",
-      "peers": "row.querySelector('td:nth-child(6)').textContent",
-      "seeds": "row.querySelector('td:nth-child(5)').textContent",
-      "size": null,
-      "url": "'http://www.legittorrents.info/'+ row.querySelector('td:nth-child(3) a').getAttribute('href')"
     }
   }
 }
