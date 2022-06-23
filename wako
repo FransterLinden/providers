@@ -39,7 +39,7 @@
     "name": "RARBG",
     "enabled": true,
     "languages": [
-      "en"
+      "en","dutch"
     ],
     "base_url": "https://torrentapi.org",
     "fallback_urls": [],
