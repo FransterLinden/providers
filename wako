@@ -3,7 +3,7 @@
     "name": "YTS",
     "enabled": true,
     "languages": [
-      "en"
+      "en","nl"
     ],
     "base_url": "https://yts.am",
     "fallback_urls": [
