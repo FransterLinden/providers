@@ -1,3 +1,3 @@
 # wako
 wako providers
-Only 4 personal use.
+only 4 personal use.
