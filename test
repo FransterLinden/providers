@@ -1352,10 +1352,7 @@
       "'s": "s",
       "\"": ""
     }
-  }
-}
-
-{
+    },
     "torrentapi": {
         "name": "RARBG",
         "enabled": true,
